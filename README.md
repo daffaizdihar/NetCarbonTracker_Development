@@ -41,20 +41,7 @@ Proyek ini dikembangkan dalam tiga tahap iterasi:
 
 ---
 
-## 📂 Struktur Proyek
-```text
-NetCarbon-Tracker/
-│
-├── v1_alpha/               # Kode sumber versi awal
-├── v2_beta/                # Kode sumber versi menengah
-├── v3_final/               # ✅ Kode sumber versi FINAL (Gunakan ini)
-│   ├── main.py             # Script utama
-│   ├── config.py           # Konfigurasi IP & User
-│   └── README.md           # Dokumentasi teknis spesifik v3
-│
-├── requirements.txt        # Daftar library Python
-└── README.md               # Dokumentasi umum (File ini)
-```
+
 ## ⚙️ Persyaratan Sistem
 Untuk menjalankan versi final, pastikan lingkungan Anda memenuhi syarat berikut:
 - Perangkat Lunak:Python 3.10 atau lebih baru.
@@ -62,30 +49,7 @@ Untuk menjalankan versi final, pastikan lingkungan Anda memenuhi syarat berikut:
 - Virtualisasi: VirtualBox / VMware (untuk simulasi server).
 - Lingkungan Jaringan (Topologi):Aplikasi membutuhkan 3 Virtual Machine (VM) Linux dengan layanan SSH aktif.
 - WEB-SRVMAIL-SRVINT-SRV(Detail konfigurasi IP ada di dalam folder v3_final)📥 
-## 📥 Cara Instalasi & Menjalankan
-Berikut adalah langkah cepat untuk menjalankan versi final:
-1. Clone Repository:
-```Bash
-git clone [https://github.com/USERNAME/NetCarbon-Tracker.git]
-(https://github.com/USERNAME/NetCarbon-Tracker.git)
-cd NetCarbon-Tracker
-```
-2. Masuk ke Folder Versi Final:
-```Bash
-cd v3_final
-```
-3. Install Dependencies:
-```Bash
-pip install -r ../requirements.txt
-# Atau install manual:
-pip install paramiko colorama prettytable
-```
-4. Konfigurasi Server:
-Edit file `config.py` atau bagian konfigurasi di `main.py` sesuai IP Address VM Anda.
-5. Jalankan Aplikasi:
-```Bash
-python3 main.py
-```
+
 ## 👥 Tim Pengembang
 
 Proyek ini dikerjakan oleh **Kelompok 4 (Kelas B1)** - Program Studi Sarjana Terapan Teknologi Rekayasa Internet, Sekolah Vokasi, Universitas Gadjah Mada.
